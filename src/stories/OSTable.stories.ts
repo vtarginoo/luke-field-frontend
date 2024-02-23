@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { withRecoilFlow } from "storybook-addon-recoil-flow/dist/decorator";
-import { IOSTableDataType } from "../interfaces/IOrdemDeServico";
+import { IOrdemDeServico } from "../interfaces/IOrdemDeServico";
 import OSTable from "../components/OSTable";
 
-const meta: Meta<IOSTableDataType> = {
+const meta: Meta<IOrdemDeServico> = {
   title: "Componente/OSTable",
   component: OSTable,
   decorators: [withRecoilFlow],
